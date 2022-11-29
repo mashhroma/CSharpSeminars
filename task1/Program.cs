@@ -5,10 +5,10 @@
 // a = -3 b = 9 -> нет
 
 Console.Write("Введите первое число: ");
-int numberFirst = int.Parse(Console.ReadLine());
+int numberFirst = int.Parse(Console.ReadLine()!);
 
 Console.Write("Введите второе число: ");
-int numberSecond = int.Parse(Console.ReadLine());
+int numberSecond = int.Parse(Console.ReadLine()!);
 
 if (numberSecond * numberSecond == numberFirst)
 {
