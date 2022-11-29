@@ -3,7 +3,7 @@
 // -3 -> 9 
 // -7 -> 49
 Console.WriteLine("Введите число: ");
-int number = int.Parse(Console.ReadLine());
+int number = int.Parse(Console.ReadLine()!);
 
 int sqrt = number * number;
 
