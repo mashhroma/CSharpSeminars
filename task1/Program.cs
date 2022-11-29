@@ -4,4 +4,17 @@
 // a = 9, b = -3 -> да 
 // a = -3 b = 9 -> нет
 
-Console.WriteLine("Hello, World!");
+Console.Write("Введите первое число: ");
+int numberFirst = int.Parse(Console.ReadLine());
+
+Console.Write("Введите второе число: ");
+int numberSecond = int.Parse(Console.ReadLine());
+
+if (numberSecond * numberSecond == numberFirst)
+{
+    Console.Write($"Число {numberFirst} является квадратом числа {numberSecond}.");
+}
+else
+{
+    Console.Write($"Число {numberFirst} не является квадратом числа {numberSecond}.");
+}
